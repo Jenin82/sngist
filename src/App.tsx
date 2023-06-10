@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import NotFound from "./modules/NotFound/NotFound";
 import Home from "./modules/Home/Home";
+import LivePoll from "./modules/Voting/Voting";
 
 const router = createBrowserRouter([
     {
@@ -28,8 +29,8 @@ const router = createBrowserRouter([
         element: <Home />,
     },
     {
-        path: "/test",
-        element: <NotFound />,
+        path: "/live-poll",
+        element: <LivePoll />,
     },
 ]);
 
