@@ -52,7 +52,7 @@ const Home = () => {
         },
 	{
             id: 8,
-            name: "ASIF AMAL E S",
+            name: "ATHIRA V",
             imageLink:
                 "https://www.photoshopessentials.com/newsite/wp-content/uploads/2018/08/resize-images-print-photoshop-f.jpg",
         },
